@@ -1,0 +1,34 @@
+TEST 1:
+inputs:
+  * a
+  * a
+output: 1
+
+tests if letters are compatible
+
+
+TEST 2:
+inputs:
+  * and
+  * and
+output: 1
+
+tests if whole words work
+
+
+TEST 3:
+inputs:
+  * and and and
+  * and
+output: 3
+
+tests if multiple of word work
+
+
+TEST 4:
+inputs:
+  * The Lion, the Witch, and the Wardrobe
+  * The
+output: 3
+
+test a full regular sentence 
