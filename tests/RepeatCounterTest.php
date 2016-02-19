@@ -32,5 +32,25 @@
 
             $this->assertEquals(3, $result);
         }
+
+        function test_normalSentence(){
+           $test_RepeatCounter = new RepeatCounter;
+           $string_input = "The Lion, the Witch, and the Wardrobe";
+           $count_input = "the";
+
+           $result = $test_RepeatCounter->CountRepeats($string_input, $count_input);
+
+           $this->assertEquals(3, $result);
+       }
+
+       function test_variousCasing(){
+          $test_RepeatCounter = new RepeatCounter;
+          $string_input = "ThE Lion, tHe Witch, and THe Wardrobe";
+          $count_input = "ThE";
+
+          $result = $test_RepeatCounter->CountRepeats($string_input, $count_input);
+
+          $this->assertEquals(3, $result);
+      }
     }
 ?>
