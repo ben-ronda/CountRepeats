@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="/css/styles.css" type="text/css">
     <title>Results</title>
   </head>
   <body>
-    <h1>Count: {{ result }}</h1>
+    <div id="result">
+      <h1>Count: {{ result }}</h1>
+    </div>
 
     <div>
       <form action="/">
-        <button type="submit">Home</button>
+        <button id="home-btn"class="btn btn-default" type="submit">Home</button>
       </form>
     </div>
-    
+
   </body>
 </html>

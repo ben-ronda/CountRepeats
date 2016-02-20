@@ -1,0 +1,22 @@
+#header{
+  text-align: left;
+
+}
+
+#form {
+  padding-left: 20px;
+  max-width: 500px;
+  min-width: 300px;
+}
+
+#count-btn{
+  margin-top: 10px;
+}
+
+#result{
+  padding-left: 20px;
+}
+
+#home-btn{
+  margin-left: 20px;
+}
